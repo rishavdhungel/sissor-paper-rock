@@ -34,16 +34,16 @@ function playRound(playerSelection,computerSelection){
 
 }
 
-function game(){
-    counter = 1;
-    while(counter <= 5){
-        console.log(counter);
-        let playerSelection = prompt('Input player choice.')
-        playRound(playerSelection.toLowerCase(),getComputerChoice());
-        counter +=1;
+// function game(){
+//     counter = 1;
+//     while(counter <= 5){
+//         console.log(counter);
+//         let playerSelection = prompt('Input player choice.')
+//         playRound(playerSelection.toLowerCase(),getComputerChoice());
+//         counter +=1;
 
 
-    }
+//     }
     
   
     const scoreBoard = `Player:${playerScore}\nComputer:${computerScore}\nTie:${tieScore}`;

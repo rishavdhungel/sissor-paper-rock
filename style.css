@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&family=VT323&display=swap');
+body{
+    background-color: black;
+    color:  #5eff4c;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    word-spacing:2rem;
+    font-family: butcherman;  
+}
+
+.mainContainer{
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.scoreBoard{
+    text-align: center;
+    font-family: butcherman;
+}
+
+.logBoard{
+    background-color: white;
+    height: fit-content;
+    width: 200px;
+    color:black;
+    font-family: VT323;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.selectionContainer{
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.selections{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.selections p{
+    font-size: 3rem;
+}
