@@ -22,7 +22,9 @@ h1{
 
 .scoreBoard{
     text-align: center;
-    font-family: butcherman;
+    font-family: VT323;
+    font-size: 3rem;
+
 }
 
 .logBoard{
@@ -58,4 +60,19 @@ h1{
 
 .selections p{
     font-size: 3rem;
+}
+
+button{
+    margin: 20px 35%;
+    width: 150px;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: white;
+    border: 1px solid white;
+    font-family: VT323;
+    border-radius: 20px;
+}
+button:hover{
+    background-color:  #5eff4c;
+    
 }
