@@ -4,9 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="output"></div>
+    <h1>Rock Paper Scissor</h1>
+    <div class="scoreBoard">Player:0 | Computer:0 | Tie:0</div>
+
+    <div class="mainContainer">
+        <div class="logBoard">
+            <!-- Log Game Actions  here -->
+            <p>Game Log:</p>
+         
+        </div>
+        <div class="playBoard">
+            <!-- Implement gui related stuffs here with scoreboard -->
+            <div class="selectionContainer">
+                <div class="selections" data-selection="rock"><p>✊</p></div>
+                <div class="selections" data-selection="scissor"><p>✌️</p></div>
+                <div class="selections" data-selection="paper"><p>✋</p></div>
+            </div>
+            <button  type="button" onclick="window.location.reload()">Reset Game!</button>
+        </div>
+    </div>
     <script src="/main.js"></script>
 </body>
 </html>
